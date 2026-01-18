@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResolveIT - Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-card">
+            <div class="logo">
+                <h1>ResolveIT</h1>
+                <p>Smart Grievance & Feedback Management System</p>
+            </div>
+            
+            <form id="registerForm" class="form">
+                <h2>Register</h2>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="role">Role</label>
+                    <select id="role" name="role" required>
+                        <option value="">Select Role</option>
+                        <option value="EMPLOYEE">Employee</option>
+                        <option value="TEAM_LEAD">Team Lead</option>
+                        <option value="ADMIN">Admin</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Register</button>
+                
+                <p class="register-link">
+                    Already have an account? <a href="index.html">Login here</a>
+                </p>
+                
+                <div id="errorMessage" class="error-message"></div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+

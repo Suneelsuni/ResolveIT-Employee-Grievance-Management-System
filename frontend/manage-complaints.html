@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResolveIT - Manage Complaints</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    
+    <div class="container">
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h2>Manage Complaints</h2>
+                <p>View and update complaint status</p>
+            </div>
+            
+            <div class="card">
+                <div id="grievancesList" class="grievances-list">
+                    <p>Loading complaints...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/navbar.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Load team lead grievances
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTeamLeadGrievances();
+        });
+    </script>
+</body>
+</html>
+

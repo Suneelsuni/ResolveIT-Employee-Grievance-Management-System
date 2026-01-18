@@ -1,0 +1,23 @@
+# Maven
+backend/resolveit-backend/target/
+backend/resolveit-backend/.mvn/
+backend/resolveit-backend/mvnw
+backend/resolveit-backend/mvnw.cmd
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.class
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application
+*.jar
+!backend/resolveit-backend/target/*.jar
+
+
+
